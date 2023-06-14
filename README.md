@@ -1,19 +1,6 @@
 
 <a name="readme-top"></a>
 
-<!--
-
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -97,7 +84,7 @@ Clone this repository to your desired folder using git
 
 ```sh
   git clone git@github.com:dazehinn/Vet-Clinic-Database.git
-  
+
   cd Vet-Clinic_Database
 ```
 
