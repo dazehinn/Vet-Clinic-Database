@@ -3,10 +3,11 @@
 CREATE DATABASE vet_clinic;
 
 CREATE table animals (
-  id int,
-  name text,
+  id int not null generated always as identity,
+  name varchar(250),
   date_of_birth date,
   escape_attempts int,
   neutered boolean,
-  weight_kg real 
+  weight_kg decimal,
+  primary key (id) 
 );
