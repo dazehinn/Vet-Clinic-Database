@@ -110,7 +110,7 @@ WHERE vets.name = 'Stephanie Mendez';
 /* List all vets and their specialties, including vets with no specialties. */
 SELECT vets.name, species.name FROM vets
 LEFT JOIN specialization ON vets.id = specialization.vets_id
-JOIN species ON species.id = specialization.species_id;
+LEFT JOIN species ON species.id = specialization.species_id;
 
 /* List all animals that visited Stephanie Mendez between April 1st and August 30th, 2020. */
 SELECT animals.name, vets.name, date_of_visit FROM animals
